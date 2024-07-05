@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sundaram Fitness</title>
+    <link rel="icon" type="image/jpeg" href="icon.jpeg">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="SundaramPandey.css">
+    <script src="https://kit.fontawesome.com/f7f85eef4e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="left">
+                <i class="fa-solid fa-dumbbell"></i>
+                <br>Sundaram Fitness</div>
+            <div class="mid">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="https://www.calculator.net/bmi-calculator.html" target="main">Fitness Calculator</a></li>
+                    <li><a href="#">Plans</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    
+                </ul>
+            </div> 
+        </div>
+        <div class="right">
+            <div class="location">Franchises<i class="fa-solid fa-location-dot"></i></div>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="blue">Gym Membership Form:</div>
+            <Form action="noaction.php" method="post">
+                <div class="name">
+                    Name<font color="red">*</font><br>
+                    <input type="text" placeholder="First" required>
+                    <input type="text" placeholder="Last" required>   
+                </div>
+                <div class="weight">
+                    Current Weight<font color="red">*</font><br>
+                    <input type="text" placeholder="In Kgs" required><br>
+                    Desired Weight<font color="red">*</font><br>
+                    <input type="text" placeholder="In Kgs" required>
+                    Height<font color="red">*</font><br>
+                    <input type="text" placeholder="In Cms" required>
+                    Gender<font color="red">*</font><br>
+                        <div class="new">
+                        <label for="Male">Male</label>
+                        <input type="radio" value="Male" name="gender" class="fm">
+                        <label for="Female">Female</label>
+                        <input type="radio" value="Female" name="gender" class="fm">
+                        </div>
+                    Phone Number<font color="red">*</font><br>
+                    <input type="tel" placeholder="+91" required>
+                    Email Address<font color="red">*</font><br>
+                    <input type="email" placeholder="someone@gmail.com" required>
+                    Address<font color="red">*</font><br>
+                    <input type="text" placeholder="Breif Address" required>
+                </div>
+                <div class="address">
+                    <div class="city">
+                        City<font color="red">*</font><br>
+                        <input type="text" placeholder="City" required>
+                    </div>
+                    <div class="state">
+                        State<font color="red">*</font><br>
+                        <select>
+                            <option>New Delhi</option>
+                            <option>Haryana</option>
+                            <option>Uttar Pradesh</option>
+                            <option>Punjab</option>
+                            <option>Madhya Pradesh</option>
+                            <option>Rajasthan</option>
+                            <option>Gujarat</option>
+                            <option>Maharashtra</option>
+                            </select>
+                    </div>
+                </div>
+                <input type="submit" class="submit" value="Join">
+                <input type="reset" class="reset" value="Reset">
+                
+            </Form>
+        </section>
+        <aside>
+            <a href="https://www.linkedin.com/in/sundaram-pandey-407b3227b/" target="main"><i class="fa-brands fa-linkedin fbinst"></i></a><br>
+            <a href="https://www.facebook.com/login.php" target="main"><i class="fa-brands fa-facebook fbinst" ></i></a><br>
+            <a href="https://www.instagram.com/_sundaram_pandey_/" target="main"><i class="fa-brands fa-instagram fbinst"></i></a>
+        </aside>   
+    </main>
+    
+    
+</body>
+</html>

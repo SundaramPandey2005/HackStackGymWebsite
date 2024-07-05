@@ -1,0 +1,188 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-image: url(back.jpg);
+    background-size: cover;
+    color: white;
+    font-family: 'Baloo Bhai';
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 23px 60px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 70vw;
+}
+
+.left {
+    display: inline-block;
+    /* border:2px solid red; */
+    text-align: center;
+}
+
+.mid {
+    /* border:2px solid yellow; */
+    padding: 16px;
+}
+
+.right {
+    /* border:2px solid green; */
+    display: flex;
+    justify-content: right;
+    padding: 16px;
+    width: 7vw;
+}
+
+ul li {
+    display: inline-block;
+}
+
+li {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+}
+
+li a:hover {
+    /* background-color: rgb(255, 255, 255); */
+    color: rgb(255, 66, 66);
+    text-decoration: underline;
+}
+
+.location i {
+    padding-left: 7px;
+}
+
+.right:hover {
+    cursor: pointer;
+}
+
+section {
+    /* border:2px solid rgb(30, 193, 247); */
+    border-radius: 10px;
+    height: 75vh;
+    width: 30vw;
+    margin-left: 200px;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 35px;
+    float: left;
+    /* background-color: rgb(141, 255, 75); */
+}
+
+.name {
+    font-size: 18px;
+    text-align: left;
+    padding: 0px;
+    padding-left: 43px;
+}
+
+.name input {
+    width: 180.5px;
+    border-radius: 7px;
+}
+
+.weight {
+    font-size: 18px;
+    text-align: left;
+    padding: 0px;
+    padding-left: 43px;
+}
+
+.weight input {
+    width: 367px;
+    border-radius: 7px;
+}
+
+.address {
+    font-size: 18px;
+    padding: 0px;
+    display: flex;
+}
+
+.address div {
+    text-align: left;
+    padding-left: 42px;
+}
+
+.state select {
+    width: 132px;
+}
+
+Form input {
+    height: 28px;
+    Font-size: 16px;
+}
+
+form select {
+    height: 28px;
+    Font-size: 16px;
+}
+
+.submit {
+    background-color: rgb(30, 193, 247);
+    font-family: 'Baloo Bhai';
+    color: White;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 104px;
+    height: 45px;
+    font-size: 25px;
+}
+
+.reset {
+    background-color: rgb(30, 193, 247);
+    font-family: 'Baloo Bhai';
+    color: White;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 104px;
+    height: 45px;
+    font-size: 25px;
+}
+
+.blue {
+    color: rgb(30, 193, 247);
+}
+
+.new input {
+    width: 52px;
+    height: 20px;
+}
+
+aside {
+    height: 80px;
+    float: right;
+    position: absolute;
+    top: 40vh;
+    right: 2vw;
+}
+
+aside i {
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+}
+
+aside a:visited {
+    color: red;
+
+}
+.city input{
+    border-radius: 7px;
+}
+.state select{
+    border-radius: 7px;
+}
